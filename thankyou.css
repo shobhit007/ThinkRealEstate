@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+}
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container h2 {
+  color: whitesmoke;
+  margin: 5px;
+}
+.container p {
+  color: whitesmoke;
+  margin: 5px;
+}
+.container button {
+  border-radius: 50px;
+  color: white;
+  border-color: whitesmoke;
+  margin-top: 10px;
+  width: 120px;
+  background-color: none;
+}
+.container button:hover {
+  background-color: rgb(105, 101, 101);
+  border-color: whitesmoke;
+}
